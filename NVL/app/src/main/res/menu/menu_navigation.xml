@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="@string/nav_cart" />
+        <item
+            android:id="@+id/nav_donhang"
+            android:icon="@drawable/ic_baseline_featured_play_list_24"
+            android:title="@string/nav_donhang" />
+        <item
+            android:id="@+id/nav_donhangdanhan"
+            android:icon="@drawable/ic_baseline_playlist_add_check_24"
+            android:title="@string/nav_donhangdanhan" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="@string/nav_user" />
+        <item
+            android:id="@+id/nav_pass"
+            android:icon="@drawable/ic_baseline_lock_24"
+            android:title="@string/nav_password" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="@string/nav_logout" />
+    </group>
+</menu>

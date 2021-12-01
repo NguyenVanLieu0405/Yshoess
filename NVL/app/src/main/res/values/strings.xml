@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">YShoes</string>
+    <string name="title_home">Home</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_user">User</string>
+    <string name="title_nike">Nike</string>
+    <string name="title_adidas">Adidas</string>
+    <string name="title_vans">Vans</string>
+    <string name="title_giaythoitrang">Giày thời trang</string>
+    ----------Home-----------
+    <string name="home_find"> Tìm kiếm</string>
+    <string name="home_kind">Loại giày</string>
+    <string name="home_kindproduct">Danh mục sản phẩm</string>
+    <string name="home_xemtatca">Xem tất cả >></string>
+    <string name="home_newproduct">Sản phẩm mới</string>
+    <string name="home_moneyproduct">Sản phẩm rẻ</string>
+    <string name="home_recommendproduct">Gợi ý</string>
+    -----------Login-----------------
+    <string name="phone">Email</string>
+    <string name="password">Password</string>
+    <string name="Login">Đăng nhập</string>
+    <string name="Register">Đăng ký</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_sign_in_short">Không được để trống</string>
+    -----------User----------------------
+    <string name="tv_tennguoidung">Tên người dùng: </string>
+    <string name="tv_sodienthoai">Email: </string>
+    <string name="btn_capnhatthongtin">Cập nhật thông tin</string>
+    -----------Register----------------------
+    <string name="tv_register">Đăng ký tài khoản </string>
+    <string name="tv_sodt">Số điện thoại: </string>
+    <string name="tv_mk">Mật khẩu: </string>
+    <string name="tv_mkconfirm">Xác nhận mật khẩu: </string>
+    <string name="tv_tendangnhap">Tên người dùng:</string>
+    <string name="btn_xacnhan">Xác nhận</string>
+    <string name="tv_quaylai">Quay lại đăng nhập </string>
+    ----------Search------------
+    <string name="tv_timkiem">Kết quả liên quan:</string>
+    ---------Navigation-----------------
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_cart">Giỏ hàng</string>
+    <string name="nav_donhang">Đơn hàng đang giao</string>
+    <string name="nav_donhangdanhan">Đơn hàng đã nhận</string>
+    <string name="nav_user">Thông tin khách hàng</string>
+    <string name="nav_password">Đổi mật khẩu</string>
+    <string name="nav_logout">Đăng xuất</string>
+    <string name="nav_open">Open navigation drawer</string>
+    <string name="nav_close">Close navigation drawer</string>
+    -------Password--------
+    <string name="newpassword">New Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+
+
+</resources>

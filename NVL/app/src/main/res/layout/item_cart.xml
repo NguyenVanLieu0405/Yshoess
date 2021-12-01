@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@drawable/vien_product"
+        android:id="@+id/relativeLayoutCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitStart"
+            android:layout_margin="5dp"
+            android:id="@+id/imgItemCart"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_toRightOf="@id/imgItemCart"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:text="Tên sản phẩm"
+            android:id="@+id/tvNameItemCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:text="Đơn giá"
+            android:id="@+id/tvMoneyItemCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/icon_giam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgGiamcart"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:background="@drawable/ic_vienedit"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:text="Số lượng: "
+                android:id="@+id/tvNumberItemCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:src="@drawable/icon_tang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgTangcart"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
